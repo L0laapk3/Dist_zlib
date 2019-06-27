@@ -52,7 +52,4 @@ test: off
 
 artifacts:
    - path: zlib.7z
-   
-deploy:
-  folder: /www/htdocs/wp/assets/Dist_zlib/%platform%-%configuration%
 
