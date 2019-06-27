@@ -4,7 +4,6 @@ environment:
     ZLib_repo: "https://github.com/madler/zlib"
   matrix:
   - configuration: release
-  - configuration: debug
   
 
 platform:
@@ -55,11 +54,5 @@ artifacts:
    - path: zlib.7z
    
 deploy:
-  provider: FTP
-  protocol: ftp
-  host: ftp.samsonov.net
-  username: samsonov
-  password:
-     secure: pMjE6BHQCeAlZMq459Btrg==
   folder: /www/htdocs/wp/assets/Dist_zlib/%platform%-%configuration%
 
