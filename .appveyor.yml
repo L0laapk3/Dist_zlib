@@ -52,4 +52,6 @@ test: off
 
 artifacts:
    - path: zlib.7z
+   
+deploy: off
 
